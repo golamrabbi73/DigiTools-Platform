@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "ResumeAI Pro",
+    "description": "Build ATS-friendly resumes in minutes with AI-powered suggestions and professional templates.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF", "AI content suggestions"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "DesignFlow",
+    "description": "A powerful graphic design tool for creating stunning visuals, logos, and social media content.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Drag & drop editor", "10,000+ assets", "Brand kit", "Team collaboration"],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "CodeTrack",
+    "description": "Project management tool built specifically for developers with Git integration and sprint planning.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Git integration", "Sprint boards", "Time tracking", "CI/CD pipeline view"],
+    "icon": "💻"
+  },
+  {
+    "id": 4,
+    "name": "VaultPass",
+    "description": "Secure password manager with end-to-end encryption to keep all your credentials safe.",
+    "price": 29,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["256-bit encryption", "Auto-fill", "Cross-device sync", "Breach alerts"],
+    "icon": "🔐"
+  },
+  {
+    "id": 5,
+    "name": "MailBlast",
+    "description": "Email marketing platform to create, send, and track campaigns with advanced analytics.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Drag & drop builder", "A/B testing", "Analytics dashboard", "1000+ contacts"],
+    "icon": "📧"
+  },
+  {
+    "id": 6,
+    "name": "MeetEase",
+    "description": "Smart scheduling tool that syncs with your calendar and eliminates back-and-forth emails.",
+    "price": 8,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Calendar sync", "Custom booking page", "Auto reminders", "Timezone detection"],
+    "icon": "📅"
+  },
+  {
+    "id": 7,
+    "name": "CloudStore",
+    "description": "Unlimited cloud storage with instant file sharing and real-time collaboration features.",
+    "price": 99,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Unlimited storage", "File versioning", "Real-time collaboration", "Offline access"],
+    "icon": "☁️"
+  },
+  {
+    "id": 8,
+    "name": "SEOBoost",
+    "description": "All-in-one SEO toolkit to audit your website, track rankings, and outrank competitors.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Site audit", "Keyword tracker", "Competitor analysis", "Backlink monitor"],
+    "icon": "📈"
+  },
+  {
+    "id": 9,
+    "name": "VideoEdge",
+    "description": "Professional video editing software with AI-powered tools for creators and marketers.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["4K export", "AI auto-captions", "500+ transitions", "Background remover"],
+    "icon": "🎬"
+  },
+  {
+    "id": 10,
+    "name": "SupportDesk",
+    "description": "Customer support platform with live chat, ticketing system, and AI chatbot integration.",
+    "price": 45,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Live chat", "AI chatbot", "Ticket management", "Customer analytics"],
+    "icon": "🎧"
+  }
+]
