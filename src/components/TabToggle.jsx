@@ -2,7 +2,7 @@ import React from 'react'
 
 const TabToggle = ({activeTab, setActiveTab, cartCount}) => {
     const btnClass = (tab) =>
-        `px-8 py-3 rounded-full font-semibold transition-all ${
+        `cursor-pointer px-8 py-3 rounded-full font-semibold transition-all ${
             activeTab === tab 
             ? "text-white"
             : " text-black hover: border-[#7c3aed] hover:text-[#7c3aed]"}`;

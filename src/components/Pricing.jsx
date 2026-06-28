@@ -124,7 +124,7 @@ const Pricing = () => {
 
                         {/* button */}
                         <button
-                            className={`w-full py-3 rounded-full font-semibold transition-all hover:opacity-90 mt-2 ${
+                            className={`w-full py-3 rounded-full font-semibold transition-all hover:opacity-90 mt-2 cursor-pointer ${
                             plan.popular
                                 ? "bg-white text-[#7c3aed]"
                                 : "text-white"

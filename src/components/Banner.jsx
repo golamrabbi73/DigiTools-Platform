@@ -32,15 +32,14 @@ const Banner = () => {
             {/* buttons */}
             <div className='flex gap-4 flex-wrap'>
                 <button
-                    className="font-semibold text-white px-6 py-3 rounded-full transition-all hover:opacity-90"
+                    className="font-semibold text-white px-6 py-3 rounded-full transition-all hover:opacity-90 cursor-pointer"
                     style={{ backgroundColor: "#7c3aed" }}
                 >
                     Explore Products
                 </button>
 
                 <button
-                    type='button'
-                    className='flex items-center gap-2 font-semibold text-gray-700 px-6 py-3 rounded-full border border-gray-300 hover:border-[#7c3aed] hover:text-[#7c3aed] transition-all'
+                    className='flex items-center gap-2 font-semibold text-gray-700 px-6 py-3 rounded-full border border-gray-300 hover:border-[#7c3aed] hover:text-[#7c3aed] transition-all cursor-pointer'
                 >
                     <FiPlay size={24} />
                     Watch Demo

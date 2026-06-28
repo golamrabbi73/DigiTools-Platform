@@ -40,7 +40,7 @@ const ProductCard = ({product, onAddToCart}) => {
         </ul>
 
         <button
-            className='font-semibold text-white text-sm px-5 py-2 rounded-full transition-all hover:opacity-90'
+            className='font-semibold text-white text-sm px-5 py-2 rounded-full transition-all hover:opacity-90 cursor-pointer'
             style={{background: "#7c3aed"}}
             onClick={() => onAddToCart(product)}
         >

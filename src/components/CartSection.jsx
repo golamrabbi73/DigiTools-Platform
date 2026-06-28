@@ -35,7 +35,7 @@ const CartSection = ({cart, onRemove, onCheckout}) => {
                             
                         <button
                             onClick={() => onRemove(index)}
-                            className='text-sm font-medium text-red-400 hover:text-red-600 border border-red-200 px-3 py-1 rounded-full hover:bg-red-50'
+                            className='cursor-pointer text-sm font-medium text-red-400 hover:text-red-600 border border-red-200 px-3 py-1 rounded-full hover:bg-red-50'
                         >
                             Remove
                         </button>
@@ -49,7 +49,7 @@ const CartSection = ({cart, onRemove, onCheckout}) => {
 
                 <button
                     onClick={onCheckout}
-                    className='w-full font-semibold text-white py-3 rounded-full hover:opacity-90 mt-2'
+                    className='w-full font-semibold text-white py-3 rounded-full hover:opacity-90 mt-2 cursor-pointer'
                     style={{background: "#7c3aed"}}
                 >
                     Proceed to Checkout

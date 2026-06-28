@@ -44,14 +44,14 @@ const Navbar = ({ cartCount }) => {
         </div>
 
         {/* Login */}
-        <button className="font-medium text-gray-600 hover:text-[#7c3aed] transition-colors duration-200 hidden md:block">
+        <button className="font-medium text-gray-600 hover:text-[#7c3aed] transition-colors duration-200 hidden md:block cursor-pointer">
           Login
         </button>
 
         {/* Get Started */}
         <button
           className="hidden md:block font-semibold text-white px-5 py-2 rounded-full transition-all duration-200 
-          h-11 w-32 hover:opacity-90"
+          h-11 w-32 hover:opacity-90 cursor-pointer"
           style={{ backgroundColor: "#7c3aed" }}
         >
           Get Started

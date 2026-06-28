@@ -19,13 +19,13 @@ const CTA = () => {
             {/* buttons */}
             <div className='flex gap-4 flex-wrap justify-center'>
                 <button
-                    className='px-6 py-3 rounded-full font-semibold bg-white text-[#7c3aed] hover:opacity-90 transition-all'
+                    className='px-6 py-3 rounded-full font-semibold bg-white text-[#7c3aed] hover:opacity-90 transition-all cursor-pointer'
                 >
                     Explore Products
                 </button>
 
                 <button
-                    className='px-6 py-3 rounded-full font-semibold text-white border border-white hover:bg-white hover:text-[#7c3aed] transition-all'
+                    className='px-6 py-3 rounded-full font-semibold text-white border border-white hover:bg-white hover:text-[#7c3aed] transition-all cursor-pointer'
                 >
                     View Pricing
                 </button>
