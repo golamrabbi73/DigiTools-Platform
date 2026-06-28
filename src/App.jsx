@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Stats from './components/Stats';
 import useCart from './hooks/useCart';
 import './index.css'
+import Steps from './components/Steps';
 function App() {
   const {cart, handleAddToCart, handleRemove, handleCheckout} = useCart();
 
@@ -20,6 +21,7 @@ function App() {
         onRemove={handleRemove}
         onCheckout={handleCheckout}
       />
+      <Steps />
     </>
   );
 }
