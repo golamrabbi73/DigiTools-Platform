@@ -11,9 +11,9 @@ const CartSection = ({cart, onRemove, onCheckout}) => {
         </h2>
 
         {cart.length === 0 ? (
-            <div className='text-center py-20 text-gray-400'>
+            <div className='flex flex-col items-center justify-center text-center pt-5 pb-20 text-gray-400'>
                 <div className='text-6xl mb-4'>
-                    <FiShoppingCart/>
+                    <FiShoppingCart />
                 </div>
                 <p className='text-lg font-medium'>Your cart is empty</p>
                 <p className='text-sm mt-1'>Add some products to get started!</p>

@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='grid grid-cols-1 md:grid-cols-5 lg:grid-cols-6 pb-10 border-b border-gray-700'>
 
                 {/* logo and desc */}
-                <div className='md: col-span-2 flex flex-col gap-4'>
+                <div className='md:col-span-2 flex flex-col gap-4'>
                     <h2 className='text-2xl font-bold text-white'>DigiTools</h2>
                     <p className='text-gray-400 text-sm leading-relaxed max-w-xs'>
                         Premium digital tools for creators, professionals, and businesses. Work smarter
