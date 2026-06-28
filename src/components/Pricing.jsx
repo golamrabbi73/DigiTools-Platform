@@ -66,13 +66,13 @@ const Pricing = () => {
             </div>
 
             {/* pricing cards */}
-            <div className='grid grid-cols-1 md:grid-cols-3 gap-6 items-center'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch'>
                 {plans.map((plan) => (
                     <div
                         key={plan.name}
                         className={`relative rounded-2xl p-8 flex flex-col gap-5 border ${
                         plan.popular
-                            ? "text-white shadow-2xl scale-105"
+                            ? "text-white shadow-2xl"
                             : "bg-white border-gray-200 shadow-sm"
                         }`}
                         style={plan.popular ? { backgroundColor: "#7c3aed", borderColor: "#7c3aed" } : {}}
@@ -108,7 +108,7 @@ const Pricing = () => {
                         </div>
 
                         {/* features */}
-                        <ul className='flex flex-col gap-3'>
+                        <ul className='flex flex-col gap-3 flex-1'>
                             {plan.features.map((feature, index) => (
                                 <li
                                     key={index}

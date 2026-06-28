@@ -21,6 +21,11 @@ const ProductCard = ({product, onAddToCart}) => {
         <h3 className='text-lg font-bold text-gray-900'>{name}</h3>
         <p className='text-gray-500 text-sm leading-relaxed'>{description}</p>
 
+        <div>
+            <span className='text-2xl font-bold text-gray-900'>${price}</span>
+            <span className='text-gray-400 text-sm ml-1 capitalize'>/{period}</span>
+        </div>
+
         {/* features */}
         <ul className='space-y-2'>
             {features.map((feature, index) => (
@@ -34,22 +39,13 @@ const ProductCard = ({product, onAddToCart}) => {
             ))}
         </ul>
 
-        <div className='border-t border-gray-100 mt-auto'></div>
-
-        <div className='flex items-center justify-between'>
-            <div>
-                <span className='text-2xl font-bold text-gray-900'>${price}</span>
-                <span className='text-gray-400 text-sm ml-1'>{period}</span>
-            </div>
-
-            <button
-                className='font-semibold text-white text-sm px-5 py-2 rounded-full transition-all hover:opacity-90'
-                style={{background: "#7c3aed"}}
-                onClick={() => onAddToCart(product)}
-            >
-                Buy Now
-            </button>
-        </div>
+        <button
+            className='font-semibold text-white text-sm px-5 py-2 rounded-full transition-all hover:opacity-90'
+            style={{background: "#7c3aed"}}
+            onClick={() => onAddToCart(product)}
+        >
+            Buy Now
+        </button>
     </div>
   )
 }
