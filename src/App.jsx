@@ -8,6 +8,7 @@ import './index.css'
 import Steps from './components/Steps';
 import Pricing from './components/Pricing';
 import CTA from './components/CTA';
+import Footer from './components/Footer';
 function App() {
   const {cart, handleAddToCart, handleRemove, handleCheckout} = useCart();
 
@@ -26,6 +27,7 @@ function App() {
       <Steps />
       <Pricing />
       <CTA />
+      <Footer />
     </>
   );
 }
