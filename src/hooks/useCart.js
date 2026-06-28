@@ -1,5 +1,5 @@
-import toast from 'daisyui/components/toast';
 import React, { useState } from 'react'
+import { toast } from 'react-toastify';
 
 const useCart = () => {
     const [cart, setCart] = useState([]);

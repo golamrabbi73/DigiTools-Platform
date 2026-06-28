@@ -7,7 +7,7 @@ const tagColors = {
     "best-seller": "bg-orange-100 text-orange-600",
 };
 
-const ProductCard = ({product}) => {
+const ProductCard = ({product, onAddToCart}) => {
     const {name, description, price, period, tag, tagType, features, icon} = product;
 
   return (
@@ -28,7 +28,7 @@ const ProductCard = ({product}) => {
                     key={index}
                     className='flex items-center gap-2 text-sm text-gray-600'
                 >
-                    <FiCheck className='text-[#7c3aed] shrink-0'/>
+                    <FiCheck className='text-green-600 shrink-0'/>
                     {feature}
                 </li>
             ))}
@@ -45,6 +45,7 @@ const ProductCard = ({product}) => {
             <button
                 className='font-semibold text-white text-sm px-5 py-2 rounded-full transition-all hover:opacity-90'
                 style={{background: "#7c3aed"}}
+                onClick={() => onAddToCart(product)}
             >
                 Buy Now
             </button>
