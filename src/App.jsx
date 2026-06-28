@@ -7,6 +7,7 @@ import useCart from './hooks/useCart';
 import './index.css'
 import Steps from './components/Steps';
 import Pricing from './components/Pricing';
+import CTA from './components/CTA';
 function App() {
   const {cart, handleAddToCart, handleRemove, handleCheckout} = useCart();
 
@@ -24,6 +25,7 @@ function App() {
       />
       <Steps />
       <Pricing />
+      <CTA />
     </>
   );
 }
