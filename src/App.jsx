@@ -6,6 +6,7 @@ import Stats from './components/Stats';
 import useCart from './hooks/useCart';
 import './index.css'
 import Steps from './components/Steps';
+import Pricing from './components/Pricing';
 function App() {
   const {cart, handleAddToCart, handleRemove, handleCheckout} = useCart();
 
@@ -22,6 +23,7 @@ function App() {
         onCheckout={handleCheckout}
       />
       <Steps />
+      <Pricing />
     </>
   );
 }
