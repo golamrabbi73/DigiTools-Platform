@@ -5,7 +5,7 @@ const CartSection = ({cart, onRemove, onCheckout}) => {
     const total = cart.reduce((sum, item) => sum + item.price, 0);
 
   return (
-    <section className='max-w-6xl mx-auto mt-3 px-4 py-16 border border-gray-100'>
+    <section className='max-w-6xl mx-auto mt-3 p-10 border border-gray-100 rounded-xl'>
         <h2 className='text-2xl font-bold text-gray-900 mb-8'>
             Yout Cart
         </h2>
@@ -23,31 +23,28 @@ const CartSection = ({cart, onRemove, onCheckout}) => {
                 {cart.map((item, index) => (
                     <div
                         key={index}
-                        className='flex items-center justify-between border border-gray-200 rounded-2xl p-4 bg-white shadow-sm'
+                        className='flex items-center justify-between  p-4 bg-[#F9FAFC] border rounded-xl border-gray-100'
                     >
-                        <div className='flex items-center gap-4'>
+                        <div className='flex items-center gap-4 '>
                             <span className='text-3xl'>{item.icon}</span>
                             <div>
                                 <h4 className='font-semibold text-gray-900'>{item.name}</h4>
-                                <p className='text-sm text-gray-400'>{item.period}</p>
+                                <span className='text-gray-500'>${item.price}</span>
                             </div>
                         </div>
-
-                        <div className='flex items-center gap-4'>
-                            <span className='font-bold text-gray-900'>${item.price}</span>
-                            <button
-                                onClick={() => onRemove(index)}
-                                className='text-sm font-medium text-red-400 hover:text-red-600 border border-red-200 px-3 py-1 rounded-full hover:bg-red-50'
-                            >
-                                Remove
-                            </button>
-                        </div>
+                            
+                        <button
+                            onClick={() => onRemove(index)}
+                            className='text-sm font-medium text-red-400 hover:text-red-600 border border-red-200 px-3 py-1 rounded-full hover:bg-red-50'
+                        >
+                            Remove
+                        </button>
                     </div>
                 ))}
 
-                <div className='flex items-center justify-between border-t border-gray-200 pt-4 mt-2'>
-                    <span className='font-semibold text-gray-700'>Total</span>
-                    <span className='text-2xl font-bold text-gray-900'>${total}</span>
+                <div className='flex items-center justify-between border-gray-200 pt-4 mt-2'>
+                    <span className=' text-gray-500'>Total</span>
+                    <span className='text-2xl font-semibold text-gray-900'>${total}</span>
                 </div>
 
                 <button

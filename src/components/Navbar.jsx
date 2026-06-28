@@ -34,9 +34,9 @@ const Navbar = ({ cartCount }) => {
       <div className="navbar-end flex items-center gap-4">
 
         {/* Cart Icon */}
-        <div className="indicator cursor-pointer">
+        <div className="relative cursor-pointer">
           {cartCount > 0 && (
-            <span className="indicator-item badge badge-sm text-white" style={{ backgroundColor: "#7c3aed" }}>
+            <span className="absolute -top-3 -right-3 w-5 h-5 rounded-full text-white text-xs font-bold flex items-center justify-center" style={{ backgroundColor: "#7c3aed" }}>
               {cartCount}
             </span>
           )}
