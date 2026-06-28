@@ -24,8 +24,11 @@ const ProductCard = ({product}) => {
         {/* features */}
         <ul className='space-y-2'>
             {features.map((feature, index) => (
-                <li key={index}>
-                    <FiCheck className='text-[#7c3aed]'/>
+                <li
+                    key={index}
+                    className='flex items-center gap-2 text-sm text-gray-600'
+                >
+                    <FiCheck className='text-[#7c3aed] shrink-0'/>
                     {feature}
                 </li>
             ))}
