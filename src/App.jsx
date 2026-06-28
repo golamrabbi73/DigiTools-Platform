@@ -1,5 +1,6 @@
 import Banner from './components/Banner';
 import Navbar from './components/Navbar';
+import ProductSection from './components/ProductSection';
 import Stats from './components/Stats';
 import './index.css'
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Banner />
       <Stats />
+      <ProductSection />
     </>
   );
 }
